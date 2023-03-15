@@ -6,7 +6,7 @@
 NPM stands for Node Package Manager, it is a library that stores, accesses, and registers Javascript software packages. When accessed from the command line, it allows you to install and manage packages
 
 2. What problems does NPM Slove? 
-NPM solves the problem of the complexity that often comes with dependencies and package management
+NPM solves the problem of the complexity that often comes with dependencies and package management, such as creating libraries, dependencies, and connecting to git.
 
 3. Describe the 3 main parts of NPM.?
 The Website, which can be used to discover packages and manage other aspects of the experience. The Command Line Interface, which is how developers interact with the NPM, and the registry a large public database of javascript software accessible via npm.
@@ -22,10 +22,10 @@ Pretty self explanatory, the scripts section gets stores the sections of the pac
 Dependencies are modules that are needed to run the program. The dependency section defines the dependencies installed. Dev Dependencies are dependencies only for development rather than runtime. And its important to define them because dev dependencies 
 
 7. How do you install dependencies? Where do dependencies get installed?
-By using the NPM install command, and they wind up in the dependency section of the package.json
+By using the NPM install command, and they wind up in the library, most typically in the directory
 
 8. When running scripts with NPM, where does NPM look (path) for the dependencies of those scripts?
-In the package.json file
+Typically, it looks in the package.json file, underneath the scripts section
 
 9. Name 3 NPM commands, and why they are important.
 npm install = Installs dependencies
